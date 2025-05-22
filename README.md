@@ -29,10 +29,6 @@ flutter_lints: ^3.0.0
   
 ## Usage
 ```dart
-ApiContext
-``` 를
-
-```dart
 final context = ApiContext();
 final response = await network.current.request(context);
 ```
